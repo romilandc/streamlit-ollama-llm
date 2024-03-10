@@ -7,7 +7,7 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 - create local path and data subfolder 
 - create virtual env using conda `conda create -n ollama` or venv
 - activate the environment `conda activate ollama` and you should see this:
-  ![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/RAG_inference_pdfs.JPG)
+  ![Image1](https://github.com/romilan24/streamlit-ollama-llm/blob/main/conda.JPG)
 - install requirements.txt `pip install -r /path/to/requirements.txt`
 - check Ollama is activated:
     - for Ollama Windows bottom right there should be 🦙
