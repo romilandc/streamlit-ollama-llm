@@ -19,17 +19,22 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 ![Image2](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/ollama_pull.JPG)
 
 - change directory to local path where llm_app.py is saved
-- in terminal enter `streamlit run llm_app.py`
-- you should see this:
+- in terminal enter `streamlit run llm_app.py`, you should see this:
 
- 
+![Image3](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/run_streamlit.JPG)
 
 - copy/paste the link in your browser and see this
 
 - select the model of choice:
-![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/RAG_inference_pdfs.JPG)
-- enter your question in the prompt and hit enter
-![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/RAG_inference_pdfs.JPG)
-- enjoy and let me know if you've come up with any other additions to the Streamlit app
+  
+![Image4](https://github.com/romilan24/llama-index-RAG/blob/main/streamlit_model.JPG)
 
-![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/RAG_inference_pdfs.JPG)
+- enter your question in the prompt and hit enter
+  
+![Image5](https://github.com/romilan24/llama-index-RAG/blob/main/integer_sum.JPG)
+
+- and the code works!
+
+![Image6](https://github.com/romilan24/llama-index-RAG/blob/main/it_works.JPG)
+
+- enjoy your local LLM and let me know if you come up with any additions
