@@ -18,7 +18,9 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 - change directory to local path where llm_app.py is saved
 - in terminal enter `streamlit run llm_app.py`
 - you should see this:
+  
 ![Image1](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/ollama_pull.JPG)
+
 - copy/paste the link in your browser and see this
 
 - select the model of choice:
