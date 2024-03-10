@@ -8,7 +8,7 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 - create virtual env using conda `conda create -n ollama` or venv
 - activate the environment `conda activate ollama` and you should see this:
 
- ![Image1](https://github.com/romilan24/streamlit-ollama-llm/blob/main/conda.JPG)
+ ![Image1](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/conda.JPG)
 
 - install requirements.txt `pip install -r /path/to/requirements.txt`
 - check Ollama is activated:
@@ -18,7 +18,7 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 - change directory to local path where llm_app.py is saved
 - in terminal enter `streamlit run llm_app.py`
 - you should see this:
-![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/RAG_inference_pdfs.JPG)
+![Image1](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/ollama_pull.JPG)
 - copy/paste the link in your browser and see this
 
 - select the model of choice:
