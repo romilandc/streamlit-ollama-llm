@@ -27,11 +27,11 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 
 - select the model of choice:
   
-![Image4](https://github.com/romilan24/llama-index-RAG/blob/main/streamlit_model.JPG)
+![Image4](https://github.com/romilan24/llama-index-RAG/blob/main/img/streamlit_model.JPG)
 
 - enter your question in the prompt and hit enter
   
-![Image5](https://github.com/romilan24/llama-index-RAG/blob/main/integer_sum.JPG)
+![Image5](https://github.com/romilan24/llama-index-RAG/blob/main/img/integer_sum.JPG)
 
 - and the code works!
 
