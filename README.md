@@ -3,14 +3,14 @@ A Streamlit user interface for local LLM implementation on Ollama.  With just tw
 
 ## How to use
 - create local path and data subfolder 
-- create virtual env using conda 'conda create -n ollama' or venv
-- install requirements.txt 'pip install -r /path/to/requirements.txt'
+- create virtual env using conda `conda create -n ollama` or venv
+- install requirements.txt `pip install -r /path/to/requirements.txt`
 - check Ollama is activated:
     - for Ollama Windows bottom right there should be 🦙
     - for Linux check Ollama documentation https://github.com/ollama/ollama
-- download models (https://ollama.com/library) from Ollama if you haven't yet 'ollama pull model_name_here' in cmd terminal
+- download models (https://ollama.com/library) from Ollama if you haven't yet `ollama pull model_name_here` in cmd terminal
 - change directory to local path where llm_app.py is saved
-- in terminal enter 'streamlit run llm_app.py'
+- in terminal enter `streamlit run llm_app.py`
 - you should see this
 
 - copy/paste the link in your browser and see this
