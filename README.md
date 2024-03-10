@@ -27,14 +27,14 @@ For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday qu
 
 - select the model of choice:
   
-![Image4](https://github.com/romilan24/llama-index-RAG/blob/main/img/streamlit_model.JPG)
+![Image4](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/streamlit_model.JPG)
 
 - enter your question in the prompt and hit enter
   
-![Image5](https://github.com/romilan24/llama-index-RAG/blob/main/img/integer_sum.JPG)
+![Image5](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/integer_sum.JPG)
 
 - and the code works!
 
-![Image6](https://github.com/romilan24/llama-index-RAG/blob/main/it_works.JPG)
+![Image6](https://github.com/romilan24/streamlit-ollama-llm/blob/main/img/it_works.JPG)
 
 - enjoy your local LLM and let me know if you come up with any additions
