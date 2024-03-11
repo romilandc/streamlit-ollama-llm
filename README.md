@@ -1,4 +1,4 @@
-A Streamlit user interface for local LLM implementation on Ollama.  With just two python apps you can have a localized LLM to chat with.  I'm running Ollama Windows (new update as-of 03/24) and DuckDuckGo browser and it's working great as a coding assistant.  
+A Streamlit webapp UI for local LLM implementation on Ollama.  With just three python libraries (torch, streamlit, ollama) you can have a localized LLM to chat with.  I'm running Ollama Windows (new update as-of 03/24) and DuckDuckGo browser and it's working great as a coding assistant.  
 
 For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday questions, try mixtral or mistral.  There's a good selection available:  https://ollama.com/library
 
