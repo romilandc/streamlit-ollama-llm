@@ -3,7 +3,10 @@ A Streamlit user interface for local LLM implementation on Ollama.  With just tw
 For coding, try code llama, dolphin-mixtral, or deepseek-coder.  For everyday questions, try mixtral or mistral.  There's a good selection available:  https://ollama.com/library
 
 ## How to use
-- create local path and data subfolder 
+- choose if you want to use gpu or cpu; llm_app.py will work in both instances
+- create folder in path with gpu/cpu for the project
+- change directory to this path `cd /path/to/project/folder'
+- use git to clone repository `git clone https://github.com/romilan24/streamlit-ollama-llm.git`
 - create virtual env using conda `conda create -n ollama` or venv
 - activate the environment `conda activate ollama` and you should see this:
 
