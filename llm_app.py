@@ -12,7 +12,7 @@ if "messages" not in st.session_state:
 if "model" not in st.session_state:
     st.session_state["model"] = ""
 
-models = [model["name"] for model in ollama.list()["models"]]
+models = [model.model for model in ollama.list().models]
 st.session_state["model"] = st.selectbox("Choose your model", models)
 
 def model_res_generator():
