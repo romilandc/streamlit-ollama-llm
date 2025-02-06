@@ -1,4 +1,5 @@
 import ollama
+from ollama import ListResponse, list
 import streamlit as st
 import torch
 
@@ -12,8 +13,13 @@ if "messages" not in st.session_state:
 if "model" not in st.session_state:
     st.session_state["model"] = ""
 
-models = [model["name"] for model in ollama.list()["models"]]
-st.session_state["model"] = st.selectbox("Choose your model", models)
+response: ListResponse = list()
+
+usable_models = []
+for model in response.models:
+  usable_models.append(model.model)
+    
+st.session_state["model"] = st.selectbox("Choose your model", usable_models)
 
 def model_res_generator():
     if torch.cuda.is_available():
